@@ -3,7 +3,7 @@ import DefaultLayout from "./components/DefaultLayout";
 import GuestLayout from "./components/GuestLayout";
 import Dashboard from "./views/Dashboard";
 import Login from "./views/Login";
-import NotFound from "./views/Notfound";
+// import NotFound from "./views/Notfound";
 import Signup from "./views/Signup";
 import UserForm from "./views/UserForm";
 import Users from "./views/Users";
@@ -48,10 +48,6 @@ const router = createBrowserRouter([
                 element: <Signup />
             },
         ]
-    },
-    {
-        path: '*',
-        element: <NotFound />
     }
 ]);
 
